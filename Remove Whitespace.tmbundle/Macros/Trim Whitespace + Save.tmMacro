@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>beforeRunningCommand</key>
+				<string>nop</string>
+				<key>command</key>
+				<string>perl -pe 's/[\t ]+$//g'</string>
+				<key>fallbackInput</key>
+				<string>document</string>
+				<key>input</key>
+				<string>selection</string>
+				<key>name</key>
+				<string>Remove Trailing Spaces in Document / Selection</string>
+				<key>output</key>
+				<string>replaceSelectedText</string>
+				<key>uuid</key>
+				<string>0F8C1F78-6E4C-11D9-91AF-000D93589AF6</string>
+			</dict>
+			<key>command</key>
+			<string>executeCommandWithOptions:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>beforeRunningCommand</key>
+				<string>saveActiveFile</string>
+				<key>input</key>
+				<string>none</string>
+				<key>name</key>
+				<string>Save Document</string>
+				<key>output</key>
+				<string>discard</string>
+				<key>uuid</key>
+				<string>A12912D4-4EE8-46FB-BEE3-44CFD290C462</string>
+			</dict>
+			<key>command</key>
+			<string>executeCommandWithOptions:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^s</string>
+	<key>name</key>
+	<string>Trim Whitespace + Save</string>
+	<key>uuid</key>
+	<string>B5E5819C-129C-4F6D-87EB-31839F007651</string>
+</dict>
+</plist>

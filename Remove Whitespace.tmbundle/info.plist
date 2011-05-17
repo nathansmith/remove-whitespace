@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Remove Whitespace</string>
+	<key>uuid</key>
+	<string>7CFE73D2-1AA0-4BE5-AAA5-EE11C7DFDD37</string>
+</dict>
+</plist>
